@@ -1,0 +1,202 @@
+ body{
+	background: url("faces/backGroundImage.jpg");
+	
+}
+
+
+#head {
+	
+	padding: 20px;
+	text-align: center;
+	font-family: "Comic Sans MS", arial, cursive, sans-serif;
+	color: brown;
+	position: relative;
+
+	
+}
+#clearfix {clear: left;}
+
+.pic { 
+ 	width: 180px;
+	position: relative;
+	left:40px;
+	padding: 5px;
+	margin: 100px;
+	display: block;
+	float: left;
+	   
+	
+}
+
+.myPic {
+	   
+}
+img {width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	padding: 10px;
+	border: 5px solid gray;
+	   
+	
+}
+
+
+.pic .touches{
+	font-family: courier;
+	color: green;
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: 100px;
+	border-left: 20px;
+	display: none;
+	text-align: center;
+	   
+} 
+
+ul { display: block;}
+
+#nav li   {
+            	border: 2px solid green;
+				padding: 1px;
+				list-style-type: none;
+				display: inline;
+				font-family: "Comic Sans Ms", arial,  cursive, sans-serif;
+				font-size: 20px;
+				
+	
+}
+#footer {background:#FFF4EF;
+	width:100%;
+	height:40px;
+	position:absolute;
+	font-family: "Comic Sans Ms", arial;
+	color: gray;
+	bottom:0;
+	left:0;
+}
+.feet { position: relative; left: 30px; top: 4px; font-size: 10px; }				
+	
+	
+
+
+#nav li a {	
+	text-decoration: none;
+	color: green;
+	}
+
+#nav li a:hover { background-color: #FFDDAE;
+			text-decoration: none;
+}
+
+
+
+
+}		
+#map { position: relative;
+		top: 70px;
+		left: 20px;
+}
+
+/* Smaller Laptops */
+
+/ @media all and  (max-width:1366px)  and (min-width:0px) {
+	.pic {margin: 40px;
+	position: relative;
+	left: 120px; 
+	top: -50px;
+	}
+
+img { width: 120px; height:120px;	}
+.pic .touches {font-size: 15px; }    	
+    
+
+#head { top: -20px;}
+
+} 
+
+/* For i pad landscape */
+
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)	and (orientation: landscape) { 
+	.pic {margin: 30px;
+	position: relative;
+	left: 60px; 
+	top: -50px;}
+	img {width: 100px; height: 100px;}
+	.pic .touches { font-size: 15px;}
+
+	#footer {display: none;}
+		
+} 
+
+/* For i Pad Portrait */
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) { 
+	
+	.pic {margin: -10px;
+	position: relative;
+	left: 40px; 
+	top: -10px;
+	}
+	
+	img {width: 90px; height: 90px;}
+	.pic .touches { font-size: 15px;}
+
+	
+	} 
+	
+	
+/* For i phone 5 and 5s */
+ @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { 
+ .pic {margin: -40px;
+	position: relative;
+	left: 80px; 
+	top: -10px;}
+	img {width: 50px; height: 50px;}
+	.pic .touches { font-size: 15px;}
+	#nav ul li{position: relative; left: -40px; font-size: 8px;}
+	#footer  {display: none;}
+	}
+
+ 
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) { 
+body{ background-color: #A0EEFF;}
+.pic{margin:-12px;
+	position: relative;
+	left: 40px; 
+	top: -100px;}
+	img {width: 40px; height: 40px; border: 2px solid gray; padding: 1px;}
+	.pic .touches { font-size: 15px;}
+	#nav ul li{display: block; font-size: 12px; width:50%; position:relative; top:-20px;left:40px;}
+	#head {top: -50px;}
+	#footer  {display: none;}
+}	
+	
+/* For i phone 6 */
+ @media only screen 
+	and (min-device-width : 375px) 
+	and (max-device-width : 667px) 
+	and (orientation : landscape)  
+	
+@media only screen 
+	and (min-device-width : 375px) 
+	and (max-device-width : 667px) 
+	and (orientation : portrait)  
+	
+/* For i phone 6 plus */
+@media only screen 
+	and (min-device-width : 414px) 
+	and (max-device-width : 736px) 
+	and (orientation : landscape) 
+
+
+	
+
+
+	
+
+@media only screen and (max-device-width: 480px) {
+     write smartphone styles here 
+}
+
+@media only screen and (max-device-width: 768px) {
+    
+}
